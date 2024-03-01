@@ -1,5 +1,7 @@
-# Script to identify peptide orthologs in human genome based on BLOSUM
-# similarity and minimum number of mismatches
+# Find Peptide Orthologs
+
+Script to identify peptide orthologs in human genome based on BLOSUM
+similarity and minimum number of mismatches
 
 
 ## Summary
