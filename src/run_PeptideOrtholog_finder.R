@@ -26,7 +26,8 @@ peptide <- "ILSPFLPLL"
 n_mismatches <- 4
 
 # Source the input file --------------------------------------------------
-uniprot_proteome_rest  <- "https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=%28proteome%3AUP000005640%29"
+uniprot_proteome_rest  <- "https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=%28proteome%3AUP000005640%29" #HBV
+#uniprot_proteome_rest  <- "https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=proteome=UP000001584" #TB
 fname_human            <- "data/UP000005640_9606.fasta"
 fname_human_onePerLine <- "data/UP000005640_9606_onePerLine.fasta" 
 if(!file.exists(fname_human)){
