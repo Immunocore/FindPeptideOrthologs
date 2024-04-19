@@ -22,10 +22,13 @@ dir.create("data")
 source("src/PeptideOrthologs_fn.R")
 
 # Set some parameters -----------------------------------------------------
-peptide <- "ILSPFLPLL"
+# Put your peptide of interest here
+peptide <- "RLPAKAPLL"
+
 n_mismatches <- 4
 
 # Source the input file --------------------------------------------------
+# Put your genome of interest here
 #uniprot_proteome_rest  <- "https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=%28proteome%3AUP000005640%29" #HBV
 uniprot_proteome_rest  <- "https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=proteome=UP000001584" #TB
 fname_human            <- "data/UP000005640_9606.fasta"
